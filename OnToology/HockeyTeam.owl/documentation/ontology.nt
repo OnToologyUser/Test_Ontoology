@@ -1,0 +1,602 @@
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom> <http://en.wikipedia.org/> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> "Aldo Gangemi" .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> "Andrea Giovanni Nuzzolese" .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> "Valentina Presutti" .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> "To model the core knowledge needed to describe a HockeyTeam" .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "An encyclopedic knowledge pattern (EKP) identifying the core knowledge that describes a HockeyTeam" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Place> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/AdministrativeRegion> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Administrative Region"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Administrative Region"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#label> "links to Administrative Region"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/AmericanFootballTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and American Football Team"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e American Football Team"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#label> "links to American Football Team"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/BasketballLeague> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Basketball League"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Basketball League"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague> <http://www.w3.org/2000/01/rdf-schema#label> "links to Basketball League"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/BasketballTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Basketball Team"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Basketball Team"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam> <http://www.w3.org/2000/01/rdf-schema#label> "links to Basketball Team"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Broadcast> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Place> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and City"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e City"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> <http://www.w3.org/2000/01/rdf-schema#label> "links to City"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Company> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Place> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Continent> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Continent"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Continent"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent> <http://www.w3.org/2000/01/rdf-schema#label> "links to Continent"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Place> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Country"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Country"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> <http://www.w3.org/2000/01/rdf-schema#label> "links to Country"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Disease> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Disease> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Disease"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Disease"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease> <http://www.w3.org/2000/01/rdf-schema#label> "links to Disease"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/HockeyTeam> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/IceHockeyLeague> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Ice Hockey League"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Ice Hockey League"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#label> "links to Ice Hockey League"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Person> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/IceHockeyPlayer> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Work> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Magazine> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Magazine"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Magazine"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine> <http://www.w3.org/2000/01/rdf-schema#label> "links to Magazine"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Species> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Mammal> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Mammal"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Mammal"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal> <http://www.w3.org/2000/01/rdf-schema#label> "links to Mammal"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Work> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Newspaper> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Person> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/OfficeHolder> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Office Holder"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Office Holder"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> <http://www.w3.org/2000/01/rdf-schema#label> "links to Office Holder"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Event> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Olympics> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Olympics"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Olympics"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics> <http://www.w3.org/2000/01/rdf-schema#label> "links to Olympics"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/RadioStation> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Activity> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Sport> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Sport"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Sport"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> <http://www.w3.org/2000/01/rdf-schema#label> "links to Sport"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Place> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Stadium> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Work> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/TelevisionShow> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Television Show"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Television Show"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow> <http://www.w3.org/2000/01/rdf-schema#label> "links to Television Show"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Place> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Town> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Town"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Town"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown> <http://www.w3.org/2000/01/rdf-schema#label> "links to Town"@en .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/ontology/Organisation> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/HockeyTeam> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/University> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and University"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e University"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity> <http://www.w3.org/2000/01/rdf-schema#label> "links to University"@en .
+# 
+# http://dbpedia.org/ontology/Activity
+<http://dbpedia.org/ontology/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Aktivität"@de .
+<http://dbpedia.org/ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "activity"@en .
+<http://dbpedia.org/ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "activité"@fr .
+# 
+# http://dbpedia.org/ontology/Disease
+<http://dbpedia.org/ontology/Disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://dbpedia.org/ontology/Event
+<http://dbpedia.org/ontology/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Event> <http://www.w3.org/2000/01/rdf-schema#label> "event"@en .
+<http://dbpedia.org/ontology/Event> <http://www.w3.org/2000/01/rdf-schema#label> "évènement"@fr .
+# 
+# http://dbpedia.org/ontology/Organisation
+<http://dbpedia.org/ontology/Organisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation"@de .
+<http://dbpedia.org/ontology/Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "organisation"@en .
+<http://dbpedia.org/ontology/Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "organisation"@fr .
+<http://dbpedia.org/ontology/Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "organização"@pt .
+# 
+# http://dbpedia.org/ontology/Person
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@de .
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "person"@en .
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "personne"@fr .
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "pessoa"@pt .
+# 
+# http://dbpedia.org/ontology/Place
+<http://dbpedia.org/ontology/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Place> <http://www.w3.org/2000/01/rdf-schema#label> "lieu"@fr .
+<http://dbpedia.org/ontology/Place> <http://www.w3.org/2000/01/rdf-schema#label> "lugar"@pt .
+<http://dbpedia.org/ontology/Place> <http://www.w3.org/2000/01/rdf-schema#label> "place"@en .
+<http://dbpedia.org/ontology/Place> <http://www.w3.org/2000/01/rdf-schema#label> "περιοχή"@el .
+# 
+# http://dbpedia.org/ontology/Species
+<http://dbpedia.org/ontology/Species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Species> <http://www.w3.org/2000/01/rdf-schema#label> "espèce"@fr .
+<http://dbpedia.org/ontology/Species> <http://www.w3.org/2000/01/rdf-schema#label> "species"@en .
+# 
+# http://dbpedia.org/ontology/Work
+<http://dbpedia.org/ontology/Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Work> <http://www.w3.org/2000/01/rdf-schema#label> "obra"@pt .
+<http://dbpedia.org/ontology/Work> <http://www.w3.org/2000/01/rdf-schema#label> "travail"@fr .
+<http://dbpedia.org/ontology/Work> <http://www.w3.org/2000/01/rdf-schema#label> "work"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#relatedMatch
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/AdministrativeRegion
+<http://dbpedia.org/ontology/AdministrativeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/AdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#label> "administrative region"@en .
+<http://dbpedia.org/ontology/AdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#label> "région administrative"@fr .
+# 
+# http://dbpedia.org/ontology/AmericanFootballTeam
+<http://dbpedia.org/ontology/AmericanFootballTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/AmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#label> "american football team"@en .
+<http://dbpedia.org/ontology/AmericanFootballTeam> <http://www.w3.org/2000/01/rdf-schema#label> "équipe américaine de football américain"@fr .
+# 
+# http://dbpedia.org/ontology/BasketballLeague
+<http://dbpedia.org/ontology/BasketballLeague> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/BasketballLeague> <http://www.w3.org/2000/01/rdf-schema#comment> "a group of sports teams that compete against each other in Basketball" .
+<http://dbpedia.org/ontology/BasketballLeague> <http://www.w3.org/2000/01/rdf-schema#label> "basketball league"@en .
+<http://dbpedia.org/ontology/BasketballLeague> <http://www.w3.org/2000/01/rdf-schema#label> "ligue de basketball"@fr .
+# 
+# http://dbpedia.org/ontology/BasketballTeam
+<http://dbpedia.org/ontology/BasketballTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/BasketballTeam> <http://www.w3.org/2000/01/rdf-schema#label> "basketball team"@en .
+# 
+# http://dbpedia.org/ontology/Broadcast
+<http://dbpedia.org/ontology/Broadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Broadcast> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast"@en .
+<http://dbpedia.org/ontology/Broadcast> <http://www.w3.org/2000/01/rdf-schema#label> "Émission de télévision"@fr .
+# 
+# http://dbpedia.org/ontology/City
+<http://dbpedia.org/ontology/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "a relatively large and permanent settlement, particularly a large urban settlement" .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "city"@en .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "cité"@fr .
+# 
+# http://dbpedia.org/ontology/Company
+<http://dbpedia.org/ontology/Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Company> <http://www.w3.org/2000/01/rdf-schema#label> "company"@en .
+<http://dbpedia.org/ontology/Company> <http://www.w3.org/2000/01/rdf-schema#label> "entreprise"@fr .
+# 
+# http://dbpedia.org/ontology/Continent
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/2000/01/rdf-schema#label> "continent"@en .
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/2000/01/rdf-schema#label> "continent"@fr .
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/2000/01/rdf-schema#label> "ήπειρος"@el .
+# 
+# http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Staat"@de .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "pays"@fr .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "χώρα"@el .
+# 
+# http://dbpedia.org/ontology/Disease
+<http://dbpedia.org/ontology/Disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dbpedia.org/ontology/HockeyTeam
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/AdministrativeRegion> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/Broadcast> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/Company> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/HockeyTeam> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/IceHockeyLeague> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/IceHockeyPlayer> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/OfficeHolder> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/RadioStation> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/Sport> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://dbpedia.org/ontology/Stadium> .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#label> "hockey team"@en .
+<http://dbpedia.org/ontology/HockeyTeam> <http://www.w3.org/2000/01/rdf-schema#label> "équipe de hockey"@fr .
+# 
+# http://dbpedia.org/ontology/IceHockeyLeague
+<http://dbpedia.org/ontology/IceHockeyLeague> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/IceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#comment> "a group of sports teams that compete against each other in Ice Hockey" .
+<http://dbpedia.org/ontology/IceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#label> "ice hockey league"@en .
+<http://dbpedia.org/ontology/IceHockeyLeague> <http://www.w3.org/2000/01/rdf-schema#label> "ligue d'hockey sur glace"@fr .
+# 
+# http://dbpedia.org/ontology/IceHockeyPlayer
+<http://dbpedia.org/ontology/IceHockeyPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/IceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "ice hockey player"@en .
+<http://dbpedia.org/ontology/IceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "joueur de hockey sur glace"@fr .
+# 
+# http://dbpedia.org/ontology/Magazine
+<http://dbpedia.org/ontology/Magazine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Magazine> <http://www.w3.org/2000/01/rdf-schema#comment> "Als Publikumszeitschrift (auch Magazin) bezeichnet man eine Gattung von Zeitschriften, die sich an eine sehr breite Zielgruppe wendet und keine fachlichen Prägungen oder andere spezifische Merkmale voraussetzt. Publikumszeitschriften dienen der Unterhaltung und Information, sie sollen unangestrengt gelesen werden können." .
+<http://dbpedia.org/ontology/Magazine> <http://www.w3.org/2000/01/rdf-schema#comment> "Magazines, periodicals, glossies or serials are publications, generally published on a regular schedule, containing a variety of articles. They are generally financed by advertising, by a purchase price, by pre-paid magazine subscriptions, or all three." .
+<http://dbpedia.org/ontology/Magazine> <http://www.w3.org/2000/01/rdf-schema#label> "magazine"@en .
+<http://dbpedia.org/ontology/Magazine> <http://www.w3.org/2000/01/rdf-schema#label> "magazine"@fr .
+<http://dbpedia.org/ontology/Magazine> <http://www.w3.org/2000/01/rdf-schema#label> "περιοδικό"@el .
+# 
+# http://dbpedia.org/ontology/Mammal
+<http://dbpedia.org/ontology/Mammal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Mammal> <http://www.w3.org/2000/01/rdf-schema#label> "mammal"@en .
+<http://dbpedia.org/ontology/Mammal> <http://www.w3.org/2000/01/rdf-schema#label> "mammifère"@fr .
+# 
+# http://dbpedia.org/ontology/Newspaper
+<http://dbpedia.org/ontology/Newspaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Newspaper> <http://www.w3.org/2000/01/rdf-schema#comment> "A newspaper is a regularly scheduled publication containing news of current events, informative articles, diverse features and advertising. It usually is printed on relatively inexpensive, low-grade paper such as newsprint." .
+<http://dbpedia.org/ontology/Newspaper> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Zeitung ist ein Druckwerk von mäßigem Seitenumfang, das in kurzen periodischen Zeitspannen, mindestens einmal wöchentlich, öffentlich erscheint. Die Zeitung ist, anders als die Zeitschrift, ein der Aktualität verpflichtetes Presseorgan und gliedert sich meist in mehrere inhaltliche Rubriken wie Politik, Lokales, Wirtschaft, Sport, Feuilleton und Immobilien." .
+<http://dbpedia.org/ontology/Newspaper> <http://www.w3.org/2000/01/rdf-schema#label> "journal"@fr .
+<http://dbpedia.org/ontology/Newspaper> <http://www.w3.org/2000/01/rdf-schema#label> "newspaper"@en .
+# 
+# http://dbpedia.org/ontology/OfficeHolder
+<http://dbpedia.org/ontology/OfficeHolder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/OfficeHolder> <http://www.w3.org/2000/01/rdf-schema#label> "Amtsinhaber"@de .
+<http://dbpedia.org/ontology/OfficeHolder> <http://www.w3.org/2000/01/rdf-schema#label> "office holder"@en .
+<http://dbpedia.org/ontology/OfficeHolder> <http://www.w3.org/2000/01/rdf-schema#label> "titulaire"@fr .
+# 
+# http://dbpedia.org/ontology/Olympics
+<http://dbpedia.org/ontology/Olympics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Olympics> <http://www.w3.org/2000/01/rdf-schema#label> "Jeux Olympiques"@fr .
+<http://dbpedia.org/ontology/Olympics> <http://www.w3.org/2000/01/rdf-schema#label> "olympics"@en .
+# 
+# http://dbpedia.org/ontology/RadioStation
+<http://dbpedia.org/ontology/RadioStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/RadioStation> <http://www.w3.org/2000/01/rdf-schema#comment> "A radio station has one line up. For instance the radio station BBC Radio 1. Not to be confused with the broadcasting network BBC, which has many radio stations." .
+<http://dbpedia.org/ontology/RadioStation> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Radiosender hat genau ein Programm, zum Beispiel der Sender NDR Kultur. Nicht zu verwechseln mit der Rundfunkanstalt NDR, welche mehrere Radiosender hat." .
+<http://dbpedia.org/ontology/RadioStation> <http://www.w3.org/2000/01/rdf-schema#label> "radio station"@en .
+<http://dbpedia.org/ontology/RadioStation> <http://www.w3.org/2000/01/rdf-schema#label> "station de radio"@fr .
+# 
+# http://dbpedia.org/ontology/Sport
+<http://dbpedia.org/ontology/Sport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Sport> <http://www.w3.org/2000/01/rdf-schema#comment> "A sport is commonly defined as an organized, competitive, and skillful physical activity." .
+<http://dbpedia.org/ontology/Sport> <http://www.w3.org/2000/01/rdf-schema#label> "sport"@en .
+<http://dbpedia.org/ontology/Sport> <http://www.w3.org/2000/01/rdf-schema#label> "sport"@fr .
+# 
+# http://dbpedia.org/ontology/Stadium
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#label> "stade"@fr .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#label> "stadium"@en .
+# 
+# http://dbpedia.org/ontology/TelevisionShow
+<http://dbpedia.org/ontology/TelevisionShow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/TelevisionShow> <http://www.w3.org/2000/01/rdf-schema#label> "television show"@en .
+<http://dbpedia.org/ontology/TelevisionShow> <http://www.w3.org/2000/01/rdf-schema#label> "émission de télévision"@fr .
+# 
+# http://dbpedia.org/ontology/Town
+<http://dbpedia.org/ontology/Town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Town> <http://www.w3.org/2000/01/rdf-schema#comment> "a settlement ranging from a few hundred to several thousand (occasionally hundreds of thousands). The precise meaning varies between countries and is not always a matter of legal definition. Usually, a town is thought of as larger than a village but smaller than a city, though there are exceptions to this rule." .
+<http://dbpedia.org/ontology/Town> <http://www.w3.org/2000/01/rdf-schema#label> "town"@en .
+<http://dbpedia.org/ontology/Town> <http://www.w3.org/2000/01/rdf-schema#label> "ville"@fr .
+# 
+# http://dbpedia.org/ontology/University
+<http://dbpedia.org/ontology/University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/University> <http://www.w3.org/2000/01/rdf-schema#label> "university"@en .
+<http://dbpedia.org/ontology/University> <http://www.w3.org/2000/01/rdf-schema#label> "université"@fr .
+<http://dbpedia.org/ontology/University> <http://www.w3.org/2000/01/rdf-schema#label> "πανεπιστήμιο"@el .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/mediaAffiliates> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/mediaAffiliates> .
+_:genid13 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/owner> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/owner> .
+_:genid14 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/after> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/before> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/after> .
+_:genid15 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "66.67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/before> .
+_:genid16 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "33.33"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/assistantCaptains> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/assistantCaptains> .
+_:genid17 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/mediaAffiliates> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/mediaAffiliates> .
+_:genid18 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/mediaAffiliates> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/mediaAffiliates> .
+_:genid19 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/property/arena> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedSource> <file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://dbpedia.org/property/arena> .
+_:genid20 <http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight> "100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://dbpedia.org/property/after
+<http://dbpedia.org/property/after> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/property/arena
+<http://dbpedia.org/property/arena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/property/assistantCaptains
+<http://dbpedia.org/property/assistantCaptains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/property/before
+<http://dbpedia.org/property/before> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/property/mediaAffiliates
+<http://dbpedia.org/property/mediaAffiliates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/property/owner
+<http://dbpedia.org/property/owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Broadcast"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Broadcast"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "links to Broadcast"@en .
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Companys"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Company"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany> <http://www.w3.org/2000/01/rdf-schema#label> "links to Company"@en .
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Hockey Team"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Hockey Team"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam> <http://www.w3.org/2000/01/rdf-schema#label> "links to Hockey Team"@en .
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Ice Hockey Player"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Ice Hockey Player"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "links to Ice Hockey Player"@en .
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Newspaper"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Newspaper"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper> <http://www.w3.org/2000/01/rdf-schema#label> "links to Newspaper"@en .
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Radio Station"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Radio Station"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation> <http://www.w3.org/2000/01/rdf-schema#label> "links to Radio Station"@en .
+# 
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between Hockey Team and Stadium"@en .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2000/01/rdf-schema#comment> "Relazione tra Hockey Team e Stadium"@it .
+<file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium> <http://www.w3.org/2000/01/rdf-schema#label> "links to Stadium"@en .
+# 
+<http://dbpedia.org/ontology/Disease> <http://www.w3.org/2000/01/rdf-schema#label> "disease"@en .
+<http://dbpedia.org/ontology/Disease> <http://www.w3.org/2000/01/rdf-schema#label> "maladie"@fr .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

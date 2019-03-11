@@ -1,0 +1,1020 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#"
+     xml:base="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"
+     xmlns:dbpediainfoboxmatchingweight="http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#">
+    <owl:Ontology rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl"/>
+        <cpannotationschema:extractedFrom rdf:resource="http://en.wikipedia.org/"/>
+        <cpannotationschema:hasAuthor>Aldo Gangemi</cpannotationschema:hasAuthor>
+        <cpannotationschema:hasAuthor>Andrea Giovanni Nuzzolese</cpannotationschema:hasAuthor>
+        <cpannotationschema:hasAuthor>Valentina Presutti</cpannotationschema:hasAuthor>
+        <cpannotationschema:hasIntent>To model the core knowledge needed to describe a HockeyTeam</cpannotationschema:hasIntent>
+        <rdfs:comment>An encyclopedic knowledge pattern (EKP) identifying the core knowledge that describes a HockeyTeam</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/AdministrativeRegion"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Administrative Region</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Administrative Region</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Administrative Region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/AmericanFootballTeam"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and American Football Team</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e American Football Team</rdfs:comment>
+        <rdfs:label xml:lang="en">links to American Football Team</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/BasketballLeague"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Basketball League</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Basketball League</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Basketball League</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/BasketballTeam"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Basketball Team</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Basketball Team</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Basketball Team</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Broadcast"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/City"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and City</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e City</rdfs:comment>
+        <rdfs:label xml:lang="en">links to City</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Company"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Continent"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Continent</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Continent</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Continent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Country</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Country</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Disease"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Disease"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Disease</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Disease</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/IceHockeyLeague"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Ice Hockey League</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Ice Hockey League</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Ice Hockey League</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/IceHockeyPlayer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Work"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Magazine"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Magazine</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Magazine</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Magazine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Species"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Mammal"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Mammal</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Mammal</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Mammal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Work"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Newspaper"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/OfficeHolder"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Office Holder</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Office Holder</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Office Holder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Event"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Olympics"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Olympics</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Olympics</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Olympics</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/RadioStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Activity"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Sport"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Sport</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Sport</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Sport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Stadium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Work"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/TelevisionShow"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Television Show</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Television Show</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Television Show</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Town"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Town</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Town</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Town</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity -->
+
+
+    <owl:ObjectProperty rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity">
+        <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/University"/>
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and University</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e University</rdfs:comment>
+        <rdfs:label xml:lang="en">links to University</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Activity -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Activity">
+        <rdfs:label xml:lang="de">Aktivität</rdfs:label>
+        <rdfs:label xml:lang="en">activity</rdfs:label>
+        <rdfs:label xml:lang="fr">activité</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Disease -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Disease"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Event -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Event">
+        <rdfs:label xml:lang="en">event</rdfs:label>
+        <rdfs:label xml:lang="fr">évènement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Organisation -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Organisation">
+        <rdfs:label xml:lang="de">Organisation</rdfs:label>
+        <rdfs:label xml:lang="en">organisation</rdfs:label>
+        <rdfs:label xml:lang="fr">organisation</rdfs:label>
+        <rdfs:label xml:lang="pt">organização</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Person -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Person">
+        <rdfs:label xml:lang="de">Person</rdfs:label>
+        <rdfs:label xml:lang="en">person</rdfs:label>
+        <rdfs:label xml:lang="fr">personne</rdfs:label>
+        <rdfs:label xml:lang="pt">pessoa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Place -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Place">
+        <rdfs:label xml:lang="fr">lieu</rdfs:label>
+        <rdfs:label xml:lang="pt">lugar</rdfs:label>
+        <rdfs:label xml:lang="en">place</rdfs:label>
+        <rdfs:label xml:lang="el">περιοχή</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Species -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Species">
+        <rdfs:label xml:lang="fr">espèce</rdfs:label>
+        <rdfs:label xml:lang="en">species</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Work -->
+
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/Work">
+        <rdfs:label xml:lang="pt">obra</rdfs:label>
+        <rdfs:label xml:lang="fr">travail</rdfs:label>
+        <rdfs:label xml:lang="en">work</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/AdministrativeRegion -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/AdministrativeRegion">
+        <rdfs:label xml:lang="en">administrative region</rdfs:label>
+        <rdfs:label xml:lang="fr">région administrative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/AmericanFootballTeam -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/AmericanFootballTeam">
+        <rdfs:label xml:lang="en">american football team</rdfs:label>
+        <rdfs:label xml:lang="fr">équipe américaine de football américain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/BasketballLeague -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/BasketballLeague">
+        <rdfs:comment>a group of sports teams that compete against each other in Basketball</rdfs:comment>
+        <rdfs:label xml:lang="en">basketball league</rdfs:label>
+        <rdfs:label xml:lang="fr">ligue de basketball</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/BasketballTeam -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/BasketballTeam">
+        <rdfs:label xml:lang="en">basketball team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Broadcast -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Broadcast">
+        <rdfs:label xml:lang="en">broadcast</rdfs:label>
+        <rdfs:label xml:lang="fr">Émission de télévision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/City -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/City">
+        <rdfs:comment>a relatively large and permanent settlement, particularly a large urban settlement</rdfs:comment>
+        <rdfs:label xml:lang="en">city</rdfs:label>
+        <rdfs:label xml:lang="fr">cité</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Company -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Company">
+        <rdfs:label xml:lang="en">company</rdfs:label>
+        <rdfs:label xml:lang="fr">entreprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Continent -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Continent">
+        <rdfs:label xml:lang="en">continent</rdfs:label>
+        <rdfs:label xml:lang="fr">continent</rdfs:label>
+        <rdfs:label xml:lang="el">ήπειρος</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Country -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Country">
+        <rdfs:label xml:lang="de">Staat</rdfs:label>
+        <rdfs:label xml:lang="en">country</rdfs:label>
+        <rdfs:label xml:lang="fr">pays</rdfs:label>
+        <rdfs:label xml:lang="el">χώρα</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Disease -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Disease"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/HockeyTeam -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/HockeyTeam">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/AdministrativeRegion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/Broadcast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/Company"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/HockeyTeam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/IceHockeyLeague"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/IceHockeyPlayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/OfficeHolder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/RadioStation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/Sport"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/ontology/Stadium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">hockey team</rdfs:label>
+        <rdfs:label xml:lang="fr">équipe de hockey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/IceHockeyLeague -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/IceHockeyLeague">
+        <rdfs:comment>a group of sports teams that compete against each other in Ice Hockey</rdfs:comment>
+        <rdfs:label xml:lang="en">ice hockey league</rdfs:label>
+        <rdfs:label xml:lang="fr">ligue d&apos;hockey sur glace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/IceHockeyPlayer -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/IceHockeyPlayer">
+        <rdfs:label xml:lang="en">ice hockey player</rdfs:label>
+        <rdfs:label xml:lang="fr">joueur de hockey sur glace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Magazine -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Magazine">
+        <rdfs:comment>Als Publikumszeitschrift (auch Magazin) bezeichnet man eine Gattung von Zeitschriften, die sich an eine sehr breite Zielgruppe wendet und keine fachlichen Prägungen oder andere spezifische Merkmale voraussetzt. Publikumszeitschriften dienen der Unterhaltung und Information, sie sollen unangestrengt gelesen werden können.</rdfs:comment>
+        <rdfs:comment>Magazines, periodicals, glossies or serials are publications, generally published on a regular schedule, containing a variety of articles. They are generally financed by advertising, by a purchase price, by pre-paid magazine subscriptions, or all three.</rdfs:comment>
+        <rdfs:label xml:lang="en">magazine</rdfs:label>
+        <rdfs:label xml:lang="fr">magazine</rdfs:label>
+        <rdfs:label xml:lang="el">περιοδικό</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Mammal -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Mammal">
+        <rdfs:label xml:lang="en">mammal</rdfs:label>
+        <rdfs:label xml:lang="fr">mammifère</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Newspaper -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Newspaper">
+        <rdfs:comment>A newspaper is a regularly scheduled publication containing news of current events, informative articles, diverse features and advertising. It usually is printed on relatively inexpensive, low-grade paper such as newsprint.</rdfs:comment>
+        <rdfs:comment>Eine Zeitung ist ein Druckwerk von mäßigem Seitenumfang, das in kurzen periodischen Zeitspannen, mindestens einmal wöchentlich, öffentlich erscheint. Die Zeitung ist, anders als die Zeitschrift, ein der Aktualität verpflichtetes Presseorgan und gliedert sich meist in mehrere inhaltliche Rubriken wie Politik, Lokales, Wirtschaft, Sport, Feuilleton und Immobilien.</rdfs:comment>
+        <rdfs:label xml:lang="fr">journal</rdfs:label>
+        <rdfs:label xml:lang="en">newspaper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/OfficeHolder -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/OfficeHolder">
+        <rdfs:label xml:lang="de">Amtsinhaber</rdfs:label>
+        <rdfs:label xml:lang="en">office holder</rdfs:label>
+        <rdfs:label xml:lang="fr">titulaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Olympics -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Olympics">
+        <rdfs:label xml:lang="fr">Jeux Olympiques</rdfs:label>
+        <rdfs:label xml:lang="en">olympics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/RadioStation -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/RadioStation">
+        <rdfs:comment>A radio station has one line up. For instance the radio station BBC Radio 1. Not to be confused with the broadcasting network BBC, which has many radio stations.</rdfs:comment>
+        <rdfs:comment>Ein Radiosender hat genau ein Programm, zum Beispiel der Sender NDR Kultur. Nicht zu verwechseln mit der Rundfunkanstalt NDR, welche mehrere Radiosender hat.</rdfs:comment>
+        <rdfs:label xml:lang="en">radio station</rdfs:label>
+        <rdfs:label xml:lang="fr">station de radio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Sport -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Sport">
+        <rdfs:comment>A sport is commonly defined as an organized, competitive, and skillful physical activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">sport</rdfs:label>
+        <rdfs:label xml:lang="fr">sport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Stadium -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Stadium">
+        <rdfs:label xml:lang="fr">stade</rdfs:label>
+        <rdfs:label xml:lang="en">stadium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/TelevisionShow -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/TelevisionShow">
+        <rdfs:label xml:lang="en">television show</rdfs:label>
+        <rdfs:label xml:lang="fr">émission de télévision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Town -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Town">
+        <rdfs:comment>a settlement ranging from a few hundred to several thousand (occasionally hundreds of thousands). The precise meaning varies between countries and is not always a matter of legal definition. Usually, a town is thought of as larger than a village but smaller than a city, though there are exceptions to this rule.</rdfs:comment>
+        <rdfs:label xml:lang="en">town</rdfs:label>
+        <rdfs:label xml:lang="fr">ville</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/University -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/University">
+        <rdfs:label xml:lang="en">university</rdfs:label>
+        <rdfs:label xml:lang="fr">université</rdfs:label>
+        <rdfs:label xml:lang="el">πανεπιστήμιο</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/mediaAffiliates"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/mediaAffiliates"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/owner"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/owner"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/after"/>
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/before"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/after"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66.67</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/before"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.33</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/assistantCaptains"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/assistantCaptains"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/mediaAffiliates"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/mediaAffiliates"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/mediaAffiliates"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/mediaAffiliates"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium -->
+
+
+    <owl:NamedIndividual rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium">
+        <skos:relatedMatch rdf:resource="http://dbpedia.org/property/arena"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <owl:annotatedTarget rdf:resource="http://dbpedia.org/property/arena"/>
+        <dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</dbpediainfoboxmatchingweight:dbpediaInfoboxMatchingWeight>
+    </owl:Axiom>
+    
+
+
+    <!-- http://dbpedia.org/property/after -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/after"/>
+    
+
+
+    <!-- http://dbpedia.org/property/arena -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/arena"/>
+    
+
+
+    <!-- http://dbpedia.org/property/assistantCaptains -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/assistantCaptains"/>
+    
+
+
+    <!-- http://dbpedia.org/property/before -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/before"/>
+    
+
+
+    <!-- http://dbpedia.org/property/mediaAffiliates -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/mediaAffiliates"/>
+    
+
+
+    <!-- http://dbpedia.org/property/owner -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/owner"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Broadcast</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Broadcast</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Broadcast</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Companys</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Company</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Company</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Hockey Team</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Hockey Team</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Hockey Team</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Ice Hockey Player</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Ice Hockey Player</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Ice Hockey Player</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Newspaper</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Newspaper</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Newspaper</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Radio Station</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Radio Station</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Radio Station</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium">
+        <rdfs:comment xml:lang="en">Relation between Hockey Team and Stadium</rdfs:comment>
+        <rdfs:comment xml:lang="it">Relazione tra Hockey Team e Stadium</rdfs:comment>
+        <rdfs:label xml:lang="en">links to Stadium</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/ontology/Disease">
+        <rdfs:label xml:lang="en">disease</rdfs:label>
+        <rdfs:label xml:lang="fr">maladie</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

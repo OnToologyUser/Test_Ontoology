@@ -1,0 +1,1264 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/AdministrativeRegion"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/RadioStation"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/Sport"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/Stadium"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/mediaAffiliates"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/owner"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "66.67"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/after"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "33.33"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/before"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/assistantCaptains"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/mediaAffiliates"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/mediaAffiliates"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/Broadcast"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://dbpedia.org/property/arena"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/City"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/Company"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/Country"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/IceHockeyLeague"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/IceHockeyPlayer"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dbpedia.org/ontology/OfficeHolder"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom" : [ {
+    "@id" : "http://en.wikipedia.org/"
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor" : [ {
+    "@value" : "Aldo Gangemi"
+  }, {
+    "@value" : "Andrea Giovanni Nuzzolese"
+  }, {
+    "@value" : "Valentina Presutti"
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent" : [ {
+    "@value" : "To model the core knowledge needed to describe a HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An encyclopedic knowledge pattern (EKP) identifying the core knowledge that describes a HockeyTeam"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"
+  }, {
+    "@id" : "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Administrative Region"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Administrative Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Administrative Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/AdministrativeRegion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and American Football Team"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e American Football Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to American Football Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/AmericanFootballTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Basketball League"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Basketball League"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Basketball League"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/BasketballLeague"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Basketball Team"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Basketball Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Basketball Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/BasketballTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Broadcast"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Broadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Broadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Broadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/mediaAffiliates"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and City"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Companys"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/owner"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Continent"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Country"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Disease"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Disease"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Hockey Team"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Hockey Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Hockey Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/after"
+  }, {
+    "@id" : "http://dbpedia.org/property/before"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Ice Hockey League"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Ice Hockey League"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Ice Hockey League"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/IceHockeyLeague"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Ice Hockey Player"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Ice Hockey Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Ice Hockey Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/IceHockeyPlayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/assistantCaptains"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Magazine"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Magazine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Magazine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Magazine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Work"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Mammal"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Mammal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Mammal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Mammal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Species"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Newspaper"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Newspaper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Newspaper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Newspaper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Work"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/mediaAffiliates"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Office Holder"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Office Holder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Office Holder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/OfficeHolder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Olympics"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Olympics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Olympics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Olympics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Event"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Radio Station"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Radio Station"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Radio Station"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/RadioStation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/mediaAffiliates"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Sport"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Sport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Sport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Sport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Activity"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Stadium"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Stadium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Stadium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Stadium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "http://dbpedia.org/property/arena"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Television Show"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Television Show"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Television Show"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/TelevisionShow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Work"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and Town"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ]
+}, {
+  "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between Hockey Team and University"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione tra Hockey Team e University"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "links to University"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/University"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Organisation"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Aktivität"
+  }, {
+    "@language" : "en",
+    "@value" : "activity"
+  }, {
+    "@language" : "fr",
+    "@value" : "activité"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/AdministrativeRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "administrative region"
+  }, {
+    "@language" : "fr",
+    "@value" : "région administrative"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/AmericanFootballTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "american football team"
+  }, {
+    "@language" : "fr",
+    "@value" : "équipe américaine de football américain"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/BasketballLeague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a group of sports teams that compete against each other in Basketball"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "basketball league"
+  }, {
+    "@language" : "fr",
+    "@value" : "ligue de basketball"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/BasketballTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "basketball team"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Broadcast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "broadcast"
+  }, {
+    "@language" : "fr",
+    "@value" : "Émission de télévision"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a relatively large and permanent settlement, particularly a large urban settlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "city"
+  }, {
+    "@language" : "fr",
+    "@value" : "cité"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "company"
+  }, {
+    "@language" : "fr",
+    "@value" : "entreprise"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Continent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "continent"
+  }, {
+    "@language" : "fr",
+    "@value" : "continent"
+  }, {
+    "@language" : "el",
+    "@value" : "ήπειρος"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Staat"
+  }, {
+    "@language" : "en",
+    "@value" : "country"
+  }, {
+    "@language" : "fr",
+    "@value" : "pays"
+  }, {
+    "@language" : "el",
+    "@value" : "χώρα"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disease"
+  }, {
+    "@language" : "fr",
+    "@value" : "maladie"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event"
+  }, {
+    "@language" : "fr",
+    "@value" : "évènement"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/HockeyTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hockey team"
+  }, {
+    "@language" : "fr",
+    "@value" : "équipe de hockey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/IceHockeyLeague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a group of sports teams that compete against each other in Ice Hockey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ice hockey league"
+  }, {
+    "@language" : "fr",
+    "@value" : "ligue d'hockey sur glace"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/IceHockeyPlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ice hockey player"
+  }, {
+    "@language" : "fr",
+    "@value" : "joueur de hockey sur glace"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Magazine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Als Publikumszeitschrift (auch Magazin) bezeichnet man eine Gattung von Zeitschriften, die sich an eine sehr breite Zielgruppe wendet und keine fachlichen Prägungen oder andere spezifische Merkmale voraussetzt. Publikumszeitschriften dienen der Unterhaltung und Information, sie sollen unangestrengt gelesen werden können."
+  }, {
+    "@value" : "Magazines, periodicals, glossies or serials are publications, generally published on a regular schedule, containing a variety of articles. They are generally financed by advertising, by a purchase price, by pre-paid magazine subscriptions, or all three."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "magazine"
+  }, {
+    "@language" : "fr",
+    "@value" : "magazine"
+  }, {
+    "@language" : "el",
+    "@value" : "περιοδικό"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Mammal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mammal"
+  }, {
+    "@language" : "fr",
+    "@value" : "mammifère"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Newspaper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A newspaper is a regularly scheduled publication containing news of current events, informative articles, diverse features and advertising. It usually is printed on relatively inexpensive, low-grade paper such as newsprint."
+  }, {
+    "@value" : "Eine Zeitung ist ein Druckwerk von mäßigem Seitenumfang, das in kurzen periodischen Zeitspannen, mindestens einmal wöchentlich, öffentlich erscheint. Die Zeitung ist, anders als die Zeitschrift, ein der Aktualität verpflichtetes Presseorgan und gliedert sich meist in mehrere inhaltliche Rubriken wie Politik, Lokales, Wirtschaft, Sport, Feuilleton und Immobilien."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "journal"
+  }, {
+    "@language" : "en",
+    "@value" : "newspaper"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/OfficeHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Amtsinhaber"
+  }, {
+    "@language" : "en",
+    "@value" : "office holder"
+  }, {
+    "@language" : "fr",
+    "@value" : "titulaire"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Olympics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Jeux Olympiques"
+  }, {
+    "@language" : "en",
+    "@value" : "olympics"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Organisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Organisation"
+  }, {
+    "@language" : "en",
+    "@value" : "organisation"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisation"
+  }, {
+    "@language" : "pt",
+    "@value" : "organização"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Person"
+  }, {
+    "@language" : "en",
+    "@value" : "person"
+  }, {
+    "@language" : "fr",
+    "@value" : "personne"
+  }, {
+    "@language" : "pt",
+    "@value" : "pessoa"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "lieu"
+  }, {
+    "@language" : "pt",
+    "@value" : "lugar"
+  }, {
+    "@language" : "en",
+    "@value" : "place"
+  }, {
+    "@language" : "el",
+    "@value" : "περιοχή"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/RadioStation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A radio station has one line up. For instance the radio station BBC Radio 1. Not to be confused with the broadcasting network BBC, which has many radio stations."
+  }, {
+    "@value" : "Ein Radiosender hat genau ein Programm, zum Beispiel der Sender NDR Kultur. Nicht zu verwechseln mit der Rundfunkanstalt NDR, welche mehrere Radiosender hat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "radio station"
+  }, {
+    "@language" : "fr",
+    "@value" : "station de radio"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Species",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "espèce"
+  }, {
+    "@language" : "en",
+    "@value" : "species"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Sport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A sport is commonly defined as an organized, competitive, and skillful physical activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sport"
+  }, {
+    "@language" : "fr",
+    "@value" : "sport"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Stadium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "stade"
+  }, {
+    "@language" : "en",
+    "@value" : "stadium"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/TelevisionShow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "television show"
+  }, {
+    "@language" : "fr",
+    "@value" : "émission de télévision"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Town",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a settlement ranging from a few hundred to several thousand (occasionally hundreds of thousands). The precise meaning varies between countries and is not always a matter of legal definition. Usually, a town is thought of as larger than a village but smaller than a city, though there are exceptions to this rule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "town"
+  }, {
+    "@language" : "fr",
+    "@value" : "ville"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/University",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "university"
+  }, {
+    "@language" : "fr",
+    "@value" : "université"
+  }, {
+    "@language" : "el",
+    "@value" : "πανεπιστήμιο"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "obra"
+  }, {
+    "@language" : "fr",
+    "@value" : "travail"
+  }, {
+    "@language" : "en",
+    "@value" : "work"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/property/after",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://dbpedia.org/property/arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://dbpedia.org/property/assistantCaptains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://dbpedia.org/property/before",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://dbpedia.org/property/mediaAffiliates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://dbpedia.org/property/owner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]

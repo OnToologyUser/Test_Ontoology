@@ -1,0 +1,223 @@
+{
+  "@context" : {
+    "linksToAdministrativeRegion" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAdministrativeRegion",
+      "@type" : "@id"
+    },
+    "University" : {
+      "@id" : "http://dbpedia.org/ontology/University"
+    },
+    "Magazine" : {
+      "@id" : "http://dbpedia.org/ontology/Magazine"
+    },
+    "Town" : {
+      "@id" : "http://dbpedia.org/ontology/Town"
+    },
+    "HockeyTeam" : {
+      "@id" : "http://dbpedia.org/ontology/HockeyTeam"
+    },
+    "IceHockeyLeague" : {
+      "@id" : "http://dbpedia.org/ontology/IceHockeyLeague"
+    },
+    "Country" : {
+      "@id" : "http://dbpedia.org/ontology/Country"
+    },
+    "linksToAmericanFootballTeam" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToAmericanFootballTeam",
+      "@type" : "@id"
+    },
+    "Organisation" : {
+      "@id" : "http://dbpedia.org/ontology/Organisation",
+      "@type" : "@id"
+    },
+    "linksToStadium" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToStadium",
+      "@type" : "@id"
+    },
+    "linksToUniversity" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToUniversity",
+      "@type" : "@id"
+    },
+    "linksToCountry" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCountry",
+      "@type" : "@id"
+    },
+    "Mammal" : {
+      "@id" : "http://dbpedia.org/ontology/Mammal"
+    },
+    "linksToCompany" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCompany",
+      "@type" : "@id"
+    },
+    "OfficeHolder" : {
+      "@id" : "http://dbpedia.org/ontology/OfficeHolder"
+    },
+    "relatedMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch",
+      "@type" : "@id"
+    },
+    "Sport" : {
+      "@id" : "http://dbpedia.org/ontology/Sport"
+    },
+    "dbpediaInfoboxMatchingWeight" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/dbpediainfoboxmatchingweight.owl#dbpediaInfoboxMatchingWeight"
+    },
+    "linksToContinent" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToContinent",
+      "@type" : "@id"
+    },
+    "linksToIceHockeyPlayer" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyPlayer",
+      "@type" : "@id"
+    },
+    "extractedFrom" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "linksToBroadcast" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBroadcast",
+      "@type" : "@id"
+    },
+    "Activity" : {
+      "@id" : "http://dbpedia.org/ontology/Activity",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://dbpedia.org/ontology/Event",
+      "@type" : "@id"
+    },
+    "Disease" : {
+      "@id" : "http://dbpedia.org/ontology/Disease",
+      "@type" : "@id"
+    },
+    "AdministrativeRegion" : {
+      "@id" : "http://dbpedia.org/ontology/AdministrativeRegion"
+    },
+    "Person" : {
+      "@id" : "http://dbpedia.org/ontology/Person",
+      "@type" : "@id"
+    },
+    "BasketballLeague" : {
+      "@id" : "http://dbpedia.org/ontology/BasketballLeague"
+    },
+    "IceHockeyPlayer" : {
+      "@id" : "http://dbpedia.org/ontology/IceHockeyPlayer"
+    },
+    "TelevisionShow" : {
+      "@id" : "http://dbpedia.org/ontology/TelevisionShow"
+    },
+    "linksToCity" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToCity",
+      "@type" : "@id"
+    },
+    "hasAuthor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor"
+    },
+    "linksToSport" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToSport",
+      "@type" : "@id"
+    },
+    "Work" : {
+      "@id" : "http://dbpedia.org/ontology/Work",
+      "@type" : "@id"
+    },
+    "Company" : {
+      "@id" : "http://dbpedia.org/ontology/Company"
+    },
+    "linksToMammal" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMammal",
+      "@type" : "@id"
+    },
+    "linksToTown" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTown",
+      "@type" : "@id"
+    },
+    "Place" : {
+      "@id" : "http://dbpedia.org/ontology/Place",
+      "@type" : "@id"
+    },
+    "linksToMagazine" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToMagazine",
+      "@type" : "@id"
+    },
+    "AmericanFootballTeam" : {
+      "@id" : "http://dbpedia.org/ontology/AmericanFootballTeam"
+    },
+    "Broadcast" : {
+      "@id" : "http://dbpedia.org/ontology/Broadcast"
+    },
+    "linksToBasketballTeam" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballTeam",
+      "@type" : "@id"
+    },
+    "linksToRadioStation" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToRadioStation",
+      "@type" : "@id"
+    },
+    "Continent" : {
+      "@id" : "http://dbpedia.org/ontology/Continent"
+    },
+    "linksToTelevisionShow" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToTelevisionShow",
+      "@type" : "@id"
+    },
+    "linksToIceHockeyLeague" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToIceHockeyLeague",
+      "@type" : "@id"
+    },
+    "hasIntent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent"
+    },
+    "Newspaper" : {
+      "@id" : "http://dbpedia.org/ontology/Newspaper"
+    },
+    "City" : {
+      "@id" : "http://dbpedia.org/ontology/City"
+    },
+    "linksToBasketballLeague" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToBasketballLeague",
+      "@type" : "@id"
+    },
+    "linksToHockeyTeam" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToHockeyTeam",
+      "@type" : "@id"
+    },
+    "linksToOfficeHolder" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOfficeHolder",
+      "@type" : "@id"
+    },
+    "linksToOlympics" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToOlympics",
+      "@type" : "@id"
+    },
+    "Stadium" : {
+      "@id" : "http://dbpedia.org/ontology/Stadium"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "BasketballTeam" : {
+      "@id" : "http://dbpedia.org/ontology/BasketballTeam"
+    },
+    "Species" : {
+      "@id" : "http://dbpedia.org/ontology/Species",
+      "@type" : "@id"
+    },
+    "linksToDisease" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToDisease",
+      "@type" : "@id"
+    },
+    "RadioStation" : {
+      "@id" : "http://dbpedia.org/ontology/RadioStation"
+    },
+    "linksToNewspaper" : {
+      "@id" : "file:/home/ahmad/repos/huanyu.li@liu.se/HockeyTeam.owl#linksToNewspaper",
+      "@type" : "@id"
+    },
+    "Olympics" : {
+      "@id" : "http://dbpedia.org/ontology/Olympics"
+    }
+  }
+}
